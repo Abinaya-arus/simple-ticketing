@@ -3,7 +3,6 @@ import { reactive } from "vue";
 
 import { Dialog, Button, FormControl, TextEditor, createResource } from "frappe-ui";
 
-
 const show = defineModel();
 
 const emit = defineEmits(["created"]);
@@ -105,7 +104,12 @@ async function createTicket() {
 		</template>
 
 		<template #actions>
+<<<<<<< HEAD
 			# <Button theme="green" @click="createTicket"> Create </Button>
+=======
+			<Button theme="green" @click="createTicket"> Create </Button>
+			<Button theme="green" @click="createTicket"> Create </Button>
+>>>>>>> main
 		</template>
 	</Dialog>
 </template>
