@@ -24,6 +24,8 @@ const columns = reactive([
 
 const rows = ref([]);
 
+
+
 async function getTickets() {
 	try {
 		const response = await fetch(
@@ -95,4 +97,5 @@ onMounted(() => {
 			</ListRows>
 		</ListView>
 	</div>
+	
 </template>
