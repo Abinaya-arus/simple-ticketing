@@ -104,8 +104,12 @@ async function createTicket() {
 		</template>
 
 		<template #actions>
+<<<<<<< HEAD
+			# <Button theme="green" @click="createTicket"> Create </Button>
+=======
 			<Button theme="green" @click="createTicket"> Create </Button>
 			<Button theme="green" @click="createTicket"> Create </Button>
+>>>>>>> main
 		</template>
 	</Dialog>
 </template>
