@@ -14,7 +14,6 @@ const newTicket = reactive({
 	purchase_date: "",
 	category: "Paper Quality",
 });
-
 const statusOptions = ["Open", "Waiting for reply", "Resolved", "Closed"];
 
 const categoryOptions = ["Paper Quality", "Delivery", "Other"];
