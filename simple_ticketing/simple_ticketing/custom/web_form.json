@@ -1,0 +1,21 @@
+{
+ "custom_fields": [
+  {
+   "default": "0",
+   "docstatus": 0,
+   "dt": "Web Form",
+   "fieldname": "custom_enabled",
+   "fieldtype": "Check",
+   "insert_after": "published",
+   "label": "Enabled",
+   "module": "Simple Ticketing",
+   "name": "Web Form-custom_enabled",
+   "permlevel": 0
+  }
+ ],
+ "custom_perms": [],
+ "doctype": "Web Form",
+ "links": [],
+ "property_setters": [],
+ "sync_on_migrate": 1
+}
